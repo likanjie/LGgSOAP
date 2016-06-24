@@ -34,9 +34,6 @@
 - 调用接口时，需要在所在的控制器中把后缀名改为.mm，因为gsoap是用C++写，得兼容。并引入gsoap头文件
 ![兼容C++](https://github.com/likanjie/image/blob/master/422ECB10-26C2-428D-9A69-0D25033FA964.png?raw=true)
 - 写调用接口代码
-
-
-   
      ` struct soap *soap = soap_new();
     if (soap_register_plugin(soap, soap_ios) == SOAP_OK) {
         
