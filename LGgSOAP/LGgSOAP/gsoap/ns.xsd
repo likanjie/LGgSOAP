@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <schema targetNamespace="http://tempuri.org/ns.xsd"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:ns="http://tempuri.org/ns.xsd"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+  <!-- operation request element -->
+  <element name="GetCity">
+   <complexType>
+    <sequence>
+     <element name="Secret" type="xsd:string" minOccurs="0" maxOccurs="1" nillable="true"/><!-- ns__GetCity::Secret -->
+    </sequence>
+   </complexType>
+  </element>
+  <!-- operation response element -->
+  <element name="GetCityResponse">
+   <complexType>
+    <sequence>
+     <element name="result" type="xsd:string" minOccurs="0" maxOccurs="1" nillable="true"/><!-- ns__GetCity::result -->
+    </sequence>
+   </complexType>
+  </element>
+ </schema>
+
