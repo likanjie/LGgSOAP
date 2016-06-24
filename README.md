@@ -36,7 +36,8 @@
 - 写调用接口代码
 
 
-    `  struct soap *soap = soap_new();
+   
+     ` struct soap *soap = soap_new();
     if (soap_register_plugin(soap, soap_ios) == SOAP_OK) {
         
         soap_ios_setcachepolicy(soap, NSURLRequestReturnCacheDataElseLoad);
@@ -83,8 +84,8 @@
         }
     }
      soap_end(soap);
-    soap_free(soap);
-`
+    soap_free(soap);`
+
 
 返回的数据：
 ![返回的数据](https://github.com/likanjie/image/blob/master/1A296FC9-7B57-499F-935A-14A80D00C7E0.png?raw=true)
