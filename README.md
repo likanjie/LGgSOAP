@@ -4,7 +4,7 @@
 - 在gsoap文件夹里新建一个server.h文件 如图：
 ![建server.h文件](https://github.com/likanjie/image/blob/master/A2E5433D-2688-4E05-BB46-120883687956.png?raw=true)
 - 在server.h里写接口：固定写法：
-`int ns__方法名();`
+`int ns__方法名(参数,返回值);`
 
 如图：
 ![写接口](https://github.com/likanjie/image/blob/master/9E77FE2A-A43D-4CF1-9CA8-1ACCA101A96D.png?raw=true)
