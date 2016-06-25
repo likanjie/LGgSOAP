@@ -7,7 +7,7 @@
 `int ns__方法名();`
 
 如图：
-![写接口](https://github.com/likanjie/image/blob/master/75A8F412-F148-4E91-9EF4-0C01B20A2791.png?raw=true)
+![写接口](https://github.com/likanjie/image/blob/master/9E77FE2A-A43D-4CF1-9CA8-1ACCA101A96D.png?raw=true)
 - 打开终端cd到项目中的gsoap文件夹中，然后编写命令行编译接口：
 `./soapcpp2 -C -x server.h`
 
